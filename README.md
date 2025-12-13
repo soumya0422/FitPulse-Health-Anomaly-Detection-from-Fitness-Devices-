@@ -18,7 +18,6 @@ Source: [Kaggle Fitbit Dataset](https://www.kaggle.com/datasets/raphfritzy/fitab
 ## Tools
 - Python, Google Colab  
 - Pandas, NumPy  
-- (Optional: Matplotlib, Seaborn)
 
 ---
 
