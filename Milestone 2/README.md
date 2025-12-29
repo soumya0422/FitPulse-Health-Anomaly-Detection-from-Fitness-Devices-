@@ -74,16 +74,6 @@ The dataset was pre-cleaned to remove invalid values before analysis.
 - Clustering revealed distinct behavioral groups corresponding to different activity levels.
 - Certain clusters exhibited higher variability and entropy, indicating atypical behavior.
 
----
-
-## Screenshots of Outputs
-The following outputs were generated during analysis:
-- Prophet forecast plots with confidence intervals
-- Anomaly detection plots highlighting deviations
-- KMeans cluster visualizations
-- Silhouette score evaluation plots
-
-(Screenshots of these outputs can be found in the project repository or notebook.)
 
 ---
 
