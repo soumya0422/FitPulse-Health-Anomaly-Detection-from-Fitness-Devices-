@@ -18,7 +18,7 @@ Each record contains the following attributes:
 - `Id` – Unique participant identifier  
 - `Time` – Timestamp of measurement  
 - `heart_rate` – Heart rate value  
-- `sleep_efficiency' – Sleep quality indicator (0–1)
+- `sleep_efficiency` – Sleep quality indicator (0–1)
 The dataset was pre-cleaned to remove invalid values before analysis.
 
 ---
@@ -31,9 +31,10 @@ The dataset was pre-cleaned to remove invalid values before analysis.
    - Daily trends
    - Weekly seasonality
 - Forecasts were generated along with upper and lower confidence intervals.
+  
 ---
 
-### 2. Heart Rate Anomaly Detection(Model-Based)
+### 2. Heart Rate Anomaly Detection (Model-Based)
 - Anomalies were identified when observed heart rate values fell outside Prophet’s confidence intervals.
 - Residual-based detection helped capture:
    - Sudden spikes
@@ -67,13 +68,15 @@ The dataset was pre-cleaned to remove invalid values before analysis.
 
 ---
 ### 6.Visualization and Reporting
-
-- Anomalies were visualized using Matplotlib and Plotly.
+- Anomalies were visualized using Matplotlib (Plotly was not used).
 - Generated visual outputs include:
    - heart_rate_anomalies.png
    - sleep_anomalies.png
-- Interactive time-series plots highlight anomalous points using markers and overlays.
+   - rule_based.png
+   - hr_prophet.png
+- Time-series plots highlight anomalous points using markers and overlays.
 - Visualizations provide a clear and intuitive understanding of abnormal behavior patterns.
+
 ---
 ## Tools and Libraries Used
 - **Python**
