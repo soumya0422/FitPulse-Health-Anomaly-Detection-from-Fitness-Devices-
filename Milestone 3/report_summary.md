@@ -42,7 +42,7 @@ The dataset was pre-cleaned to remove invalid values before analysis.
 - Flagged records outside this range as sleep anomalies.
 - Visualized sleep efficiency over time across all users to identify unusual patterns.
 
-###4. Visualization and Reporting
+### 4. Visualization and Reporting
 
 - Anomalies were visualized using Matplotlib.
 - Generated plots for reporting and further analysis:
