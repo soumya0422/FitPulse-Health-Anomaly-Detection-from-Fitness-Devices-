@@ -26,7 +26,7 @@ The dataset was pre-cleaned to remove invalid values before analysis.
 ## Steps Performed
 
 ### 1. Heart Rate Trend Modeling
--Heart rate data was aggregated to hourly mean values per user.
+- Heart rate data was aggregated to hourly mean values per user.
 -Facebook Prophet was applied to model:
    - Daily trends
    - Weekly seasonality
