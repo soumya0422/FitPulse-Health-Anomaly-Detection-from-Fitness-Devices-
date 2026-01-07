@@ -42,7 +42,7 @@ The dataset was pre-cleaned to remove invalid values before analysis.
 - Detected anomalies were labeled for further analysis and visualization.
 ---
 
-### 3.Sleep Pattern Anomaly Detection (Rule-Based)
+### 3. Sleep Pattern Anomaly Detection (Rule-Based)
 - Domain-specific thresholds were defined for sleep efficiency:
    - Normal range: 0.9 – 1.0
 - Records outside this range were flagged as sleep anomalies.
@@ -70,10 +70,10 @@ The dataset was pre-cleaned to remove invalid values before analysis.
 ### 6.Visualization and Reporting
 - Anomalies were visualized using Matplotlib (Plotly was not used).
 - Generated visual outputs include:
-   - heart_rate_anomalies.png
-   - sleep_anomalies.png
-   - rule_based.png
-   - hr_prophet.png
+   - `heart_rate_anomalies.png`
+   - `sleep_anomalies.png`
+   - `rule_based.png`
+   - `hr_prophet.png`
 - Time-series plots highlight anomalous points using markers and overlays.
 - Visualizations provide a clear and intuitive understanding of abnormal behavior patterns.
 
